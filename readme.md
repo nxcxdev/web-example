@@ -1,3 +1,7 @@
-Hello World!
+# Web example project
 
-My name is Nico.
+Run project in development environment:
+
+```bash
+npm run dev
+```
