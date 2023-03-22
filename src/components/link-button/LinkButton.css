@@ -1,0 +1,44 @@
+.link-button {
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    justify-content: center;
+    transition: 0.25s;
+    margin-left: 0.5rem;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.link-button:hover,
+.link-button:focus {
+    transition: 0.25s;
+}
+.link-button--primary {
+    background-color: white;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.link-button--primary:hover,
+.link-button--primary:focus {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.link-button--secondary {
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: white;
+}
+
+.link-button--secondary:hover,
+.link-button--secondary:focus {
+    background-color: var(--dark-primary-color);
+    border: 1px solid var(--dark-primary-color);
+}
+
+.link-button:active {
+    background-color: hsl(210, 100%, 50%);
+    border-color: hsl(210, 100%, 50%);
+}

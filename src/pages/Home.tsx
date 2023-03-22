@@ -1,13 +1,10 @@
-import Article from "../components/article/Article";
+import LinkButton from "../components/link-button/LinkButton";
+import Navbar from "../components/header/Navbar";
 
 export default function Home() {
     return (
-        <main className="App">
-            <h1>Web example</h1>
-            <p>This is my web</p>
-            <Article />
-            <Article />
-            <Article />
-        </main>
+        <>
+            <Navbar />
+        </>
     );
 }
