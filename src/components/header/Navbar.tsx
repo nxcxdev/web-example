@@ -11,7 +11,7 @@ export default function Navbar() {
                     <LinkButton variant="primary">
                         Registrate o inicia sesion
                     </LinkButton>
-                    <LinkButton className="asd" variant="secondary">
+                    <LinkButton className="auto-hide" variant="secondary">
                         Subir un producto
                     </LinkButton>
                 </li>
