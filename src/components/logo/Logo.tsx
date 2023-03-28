@@ -6,7 +6,7 @@ export default function Logo() {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
         >
-            <g filter="url(#a)">
+            <g className="logo-hide" filter="url(#a)">
                 <path
                     fill-rule="evenodd"
                     clip-rule="evenodd"

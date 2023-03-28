@@ -1,7 +1,6 @@
 import LinkButton from "../link-button/LinkButton";
 import "./Navbar.css";
 import Logo from "../logo/Logo";
-
 export default function Navbar() {
     return (
         <nav className="navbar">
