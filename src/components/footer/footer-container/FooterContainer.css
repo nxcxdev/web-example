@@ -1,0 +1,18 @@
+.footer-container__link {
+    transition: 0.25s;
+    font-size: 12px;
+    color: hsl(0, 0%, 50%);
+    text-decoration: none;
+}
+
+.footer-container__link:hover {
+    color: hsl(175, 80%, 40%);
+}
+.footer-container__link-list {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-container__heading {
+    font-size: 16px;
+}

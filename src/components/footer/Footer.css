@@ -28,25 +28,6 @@
     display: inline-block;
 }
 
-p {
-    font-size: 12px;
-}
-
-.footer-link {
-    transition: 0.25s;
-    font-size: 12px;
-    color: hsl(0, 0%, 50%);
-    text-decoration: none;
-}
-
-.footer-link:hover {
-    color: hsl(175, 80%, 40%);
-}
-.link-list {
-    margin: 0px;
-    padding: 0px;
-}
-
-container-heading {
-    font-size: 16px;
+.copyright-tag {
+    font-size: 0.8rem;
 }

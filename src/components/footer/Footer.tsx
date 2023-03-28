@@ -1,5 +1,8 @@
 import "./Footer.css";
 import Logo from "../logo/Logo";
+import FooterContainer from "./footer-container/FooterContainer";
+import { Link } from "../../types/Link";
+import footerLinksContainers from "../../assets/json/footer-links-containers.json";
 
 export default function Footer() {
     return (
@@ -11,43 +14,19 @@ export default function Footer() {
                         src="media/images/footer-logo.png"
                     />
                     <p className="copyright-tag">
-                        Copyright © 2023 Wallapop © de sus respectivos
+                        Copyright &copy; 2023 Wallapop &copy; de sus respectivos
                         propietarios
                     </p>
                 </div>
                 <div className="footer-links-container">
-                    <div className="footer-container">
-                        <div className="container-heading">Wallapop</div>
-                        <ul className="link-list">
-                            <li>
-                                <a href="" className="footer-link">
-                                    Quiénes somos
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" className="footer-link">
-                                    Cómo funciona
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" className="footer-link">
-                                    Brand Book
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" className="footer-link">
-                                    Prensa
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" className="footer-link">
-                                    Empleo
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="footer-container">
-                        <div className="container-heading">Soporte</div>
+                    {footerLinksContainers.map((container) => (
+                        <FooterContainer
+                            linksHeading={container.linksHeading}
+                            links={container.links}
+                        />
+                    ))}
+                    {/* <div className="footer-container">
+                        <h4 className="container-heading">Soporte</h4>
                         <ul className="link-list">
                             <li>
                                 <a href="" className="footer-link">
@@ -67,7 +46,7 @@ export default function Footer() {
                         </ul>
                     </div>
                     <div className="footer-container">
-                        <div className="container-heading">Legal</div>
+                        <h4 className="container-heading">Legal</h4>
                         <ul className="link-list">
                             <li>
                                 <a href="" className="footer-link">
@@ -90,7 +69,7 @@ export default function Footer() {
                                 </a>
                             </li>
                         </ul>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </footer>

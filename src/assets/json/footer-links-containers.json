@@ -1,0 +1,31 @@
+[
+    {
+        "linksHeading": "Wallapop",
+        "links": [
+            {
+                "reference": "https://google.com",
+                "text": "Quiénes somos"
+            },
+            {
+                "reference": "https://google.com",
+                "text": "Cómo funciona"
+            },
+            {
+                "reference": "https://google.com",
+                "text": "Empleo"
+            },
+            {
+                "reference": "https://google.com",
+                "text": "Prensa"
+            },
+            {
+                "reference": "https://google.com",
+                "text": "Brand Book"
+            }
+        ]
+    },
+    {
+        "linksHeading": "Cheetos",
+        "links": []
+    }
+]
